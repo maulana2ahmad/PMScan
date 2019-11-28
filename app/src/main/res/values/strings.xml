@@ -1,0 +1,12 @@
+<resources>
+	<string name="app_name">Itracking</string>
+
+	<!-- TODO: Remove or change this placeholder text -->
+
+	<string name="placeholder_empty">Not found</string>
+	<string name="placeholder_offline">No Internet connection available</string>
+	<string name="powered_by_it_developer">Powered by IT Broadcast Dev. System - MNC Media </string>
+	<string name="emblemtext">I Tracking</string>
+
+
+</resources>

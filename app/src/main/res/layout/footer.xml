@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="bottom">
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/footer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/powered_by_it_developer"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+</LinearLayout>

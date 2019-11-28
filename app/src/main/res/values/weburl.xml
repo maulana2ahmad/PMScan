@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="web_url">
+        <item>http://pm.mncgroup.com:8008/login</item>
+    </string-array>
+</resources>

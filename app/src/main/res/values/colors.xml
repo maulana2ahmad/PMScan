@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7875fe</color>
+    <color name="colorPrimaryDark">#b125ef</color>
+    <color name="colorStatusBar">#625FEE</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="df_transparent_black_background">#80000000</color>
+    <color name="whiteCardColor">#fff</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="blackTextColor">#000</color>
+
+    <color name="colorFinishRefresh">#B11111</color>
+    <color name="colorLoadRefresh">#FFB80C</color>
+</resources>
