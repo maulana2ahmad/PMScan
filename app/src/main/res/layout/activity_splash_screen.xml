@@ -4,17 +4,20 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
+	android:layout_gravity="center"
 	android:background="@drawable/bg_splash"
 	tools:context=".SplashScreenActivity">
 
 	<ImageView
 		android:id="@+id/imageView"
-		android:layout_width="100dp"
-		android:layout_height="100dp"
-		android:layout_marginTop="236dp"
-		android:src="@drawable/logo2"
+		android:layout_width="300dp"
+		android:layout_height="200dp"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="136dp"
+		android:layout_marginEnd="16dp"
+		android:src="@drawable/logo_splash"
 		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintHorizontal_bias="0.498"
+		app:layout_constraintHorizontal_bias="0.697"
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,27 +25,43 @@
 		android:id="@+id/textView"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_marginTop="20dp"
-		android:fontFamily="@font/october_twilight"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="304dp"
+		android:layout_marginEnd="16dp"
+		android:fontFamily="@font/montserrat_alternates_regular"
 		android:padding="10dp"
 		android:text="@string/emblemtext"
-		android:textColor="#FFFFFF"
-		android:textSize="50sp"
+		android:textColor="#F0E9F4"
+		android:textSize="35sp"
 		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintHorizontal_bias="0.382"
+		app:layout_constraintHorizontal_bias="0.497"
 		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toBottomOf="@+id/imageView" />
+		app:layout_constraintTop_toTopOf="parent" />
 
-	<TextView
-		android:textColor="#525252"
-		android:id="@+id/versionId"
+	<LinearLayout
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:layout_marginBottom="36dp"
+		android:layout_marginBottom="44dp"
+		android:gravity="center"
+		android:orientation="vertical"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintHorizontal_bias="0.498"
-		app:layout_constraintStart_toStartOf="parent"
-		tools:text="Version" />
+		app:layout_constraintStart_toStartOf="parent">
+
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="App Version"
+			android:textColor="#FFF" />
+
+		<TextView
+			android:id="@+id/versionId"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			tools:text="Version" />
+	</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

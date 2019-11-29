@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
 
+
 public class SplashScreenActivity extends AppCompatActivity {
 
 	final private static int TIME_SPLASH = 2000;
